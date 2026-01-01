@@ -1,3 +1,5 @@
+import DemoCard from "./DemoCard";  
+
 export default function AnimatedCard() {
   return (
     <div className="w-64 bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
