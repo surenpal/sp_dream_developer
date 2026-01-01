@@ -4,7 +4,7 @@ export default function DemoCard() {
       <div className="overflow-hidden">
         <img
           src="https://picsum.photos/300"
-          className="w-full h-40 object-cover transition duration-300 hover:scale-105"
+          className="w-full h-90 object-cover transition duration-300 hover:scale-105"
         />
       </div>
 
