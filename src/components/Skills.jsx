@@ -10,6 +10,10 @@ export default function Skills() {
         <span className="px-4 py-2 bg-white shadow rounded">Server</span>
         <span className="px-4 py-2 bg-white shadow rounded">MongoDB</span>
         <span className="px-4 py-2 bg-white shadow rounded">JAVA</span>
+        <span className="px-4 py-2 bg-white shadow rounded">HTML</span>
+        <span className="px-4 py-2 bg-white shadow rounded">CSS</span>
+        <span className="px-4 py-2 bg-white shadow rounded">GitHub</span>  
+        <span className="px-4 py-2 bg-white shadow rounded">Python</span>
       </div>
     </section>
   );

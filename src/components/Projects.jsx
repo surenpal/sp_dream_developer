@@ -10,6 +10,8 @@ export default function Projects() {
         <AnimatedCard />
         <AnimatedCard />
         <AnimatedCard />
+        <AnimatedCard />
+        <AnimatedCard />
       </div>
     </section>
   );
