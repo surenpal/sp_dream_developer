@@ -1,6 +1,6 @@
 export default function ProjectCard({ title, description, url, imgSrc }) {
   return (
-    <div className="w-64 bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
+    <div className="w-64 bg-white rounded-xl overflow-hidden shadow-md align-items-center">
       <div className="overflow-hidden">
         <img
           src={imgSrc}

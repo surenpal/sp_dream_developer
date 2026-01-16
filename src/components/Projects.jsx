@@ -1,7 +1,10 @@
+import { section } from "framer-motion/client";
 import ProjectCard from "./ProjectCard";
 
 export default function Project() {
   return (
+    <section id="projects" className="max-w-4xl mx-auto py-20 px-6">
+      <h2 className="text-3xl font-bold mb-6">Projects</h2>
     <div className="flex gap-4">
       <ProjectCard 
         imgSrc={"./src/assets/weather-app.png"}
@@ -17,5 +20,6 @@ export default function Project() {
         url={"https://datetimeappsuren.vercel.app"}
       />
     </div>
+    </section>
   );
 }
