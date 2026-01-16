@@ -1,5 +1,5 @@
 
-export default function ProjectCard() {
+export default function ProjectCard(title, description) {
   return (
     <div className="w-64 bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
       <div className="overflow-hidden">
@@ -10,9 +10,9 @@ export default function ProjectCard() {
       </div>
 
       <div className="p-4">
-        <h2 className="text-lg font-semibold">Project title</h2>
+        <h2 className="text-lg font-semibold">{title}</h2>
         <p className="text-sm text-gray-600 opacity-0 transition duration-300 hover:opacity-100">
-          Projects will be added here
+          {description}
         </p>
       </div>
     </div>
