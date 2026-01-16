@@ -5,7 +5,6 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-
 export default function App() {
   return (
     <div className="bg-gray-400 text-gray-900">
