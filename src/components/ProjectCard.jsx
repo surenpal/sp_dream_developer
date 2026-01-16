@@ -1,5 +1,5 @@
 
-export default function AnimatedCard() {
+export default function ProjectCard() {
   return (
     <div className="w-64 bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
       <div className="overflow-hidden">
