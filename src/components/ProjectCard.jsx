@@ -4,11 +4,11 @@ export default function ProjectCard({ title, description, url, imgSrc }) {
       <div className="overflow-hidden">
         <img
           src={imgSrc}
-          className="w-full h-40 object-cover transition duration-300 hover:scale-105"
+          className="w-full h-40 object-contain transition duration-300 hover:scale-10 pt-5"
         />
       </div>
 
-      <div className="p-4">
+      <div className="p-4 text-center">
         <h2 className="text-lg font-semibold">{title}</h2>
         <p className="text-sm text-gray-600 opacity-0 transition dur">
           {description}
