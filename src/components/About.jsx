@@ -1,13 +1,21 @@
 import MyCareer from "./MyCareer";
+
 export default function About() {
   return (
-    <section id="about" className="max-w-4xl mx-auto py-20 px-6">
-      <h2 className="text-3xl font-bold mb-6">About Me</h2>
-      <p className="text-gray-700 leading-relaxed">
-        I am a React developer who loves building
-        learner-friendly resources. I enjoy simplifying complex topics and
-        creating clean, scalable projects for teaching and real-world use.
+    <section
+      id="about"
+      className="w-full py-24 px-6 text-center bg-gray-50"
+    >
+      <h2 className="text-4xl font-extrabold text-gray-800 mb-6">
+        About Me
+      </h2>
+
+      <p className="text-gray-700 leading-relaxed text-lg mb-10">
+        I am a React developer who loves building learner-friendly resources.
+        I enjoy simplifying complex topics and creating clean, scalable
+        projects for teaching and real-world use.
       </p>
+
       <MyCareer />
     </section>
   );
