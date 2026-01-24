@@ -15,24 +15,23 @@ export default function Project() {
 
       <div className="flex flex-wrap justify-center gap-6">
         <ProjectCard
-          imgSrc={"/assets/weather-app.png"}
+          imgSrc={weatherImg}
           title="Weather-App"
           description="A clean weather app built with React and Tailwind."
-          url={"https://weatherappsuren.vercel.app/"}
+          url="https://weatherappsuren.vercel.app/"
         />
-
         <ProjectCard
-          imgSrc={"/assets/date-time-app.png"}
+          imgSrc={dateTimeImg}
           title="Date-Time-App"
           description="A clean date-time app built with React and Tailwind."
-          url={"https://datetimeappsuren.vercel.app"}
+        url="https://datetimeappsuren.vercel.app"
         />
 
         <ProjectCard
-          imgSrc={"/assets/login-page.png"}
+          imgSrc={loginImg}
           title="Login-Form"
           description="Login form built with React and Tailwind."
-          url={"https://loginformreacttailwind.vercel.app/"}
+          url="https://loginformreacttailwind.vercel.app/"
         />
       </div>
     </section>
