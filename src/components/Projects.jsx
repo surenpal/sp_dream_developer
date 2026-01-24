@@ -1,4 +1,7 @@
 import ProjectCard from "./ProjectCard";
+import weatherImg from "../assets/weather-app.png";
+import dateTimeImg from "../assets/date-time-app.png";
+import loginImg from "../assets/login-page.png";
 
 export default function Project() {
   return (
@@ -12,21 +15,21 @@ export default function Project() {
 
       <div className="flex flex-wrap justify-center gap-6">
         <ProjectCard
-          imgSrc={"./src/assets/weather-app.png"}
+          imgSrc={"/assets/weather-app.png"}
           title="Weather-App"
           description="A clean weather app built with React and Tailwind."
           url={"https://weatherappsuren.vercel.app/"}
         />
 
         <ProjectCard
-          imgSrc={"./src/assets/date-time-app.png"}
+          imgSrc={"/assets/date-time-app.png"}
           title="Date-Time-App"
           description="A clean date-time app built with React and Tailwind."
           url={"https://datetimeappsuren.vercel.app"}
         />
 
         <ProjectCard
-          imgSrc={"./src/assets/login-page.png"}
+          imgSrc={"/assets/login-page.png"}
           title="Login-Form"
           description="Login form built with React and Tailwind."
           url={"https://loginformreacttailwind.vercel.app/"}
