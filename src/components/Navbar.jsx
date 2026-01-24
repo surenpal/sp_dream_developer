@@ -1,6 +1,7 @@
 export default function Navbar() {
   return (
-<nav className="w-full h-16 p-4 bg-gray-200 shadow-inner fixed top-0 left-0 z-50 text-xl font-semibold text-lavender-600 rounded-b-md">      <div className="max-w-6xl mx-auto flex justify-between items-center">
+<nav className="w-full h-16 p-4 bg-gray-200 fixed top-0 left-0 z-50 text-xl font-semibold text-lavender-600 rounded-b-md shadow-2xl">  
+      <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-xl font-bold text-lavender-600">Suren Pal</h1>
         <div className="space-x-6">
           <a  href="#about">About</a>
