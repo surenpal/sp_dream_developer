@@ -6,7 +6,7 @@ export default function Mycareer() {
     { title: " 2 Year`s of college degree for IT", text: "Completed my 2 years IT course at Nagoya Future Technology College." },
     { title: "Sales Manager", text: "Strong communication and leadership skills." },
     { title: "React Developer Journey", text: "Started building learner-friendly resources." },
-    { title: "Future Vision", text: "Plan to good Full Stack Developer." },
+    { title: "Future Vision", text: "Plan to be a good Full Stack Developer." },
   ];
 
   return (
