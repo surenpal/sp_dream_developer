@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import weatherImg from "../assets/weather-app.png";
 import dateTimeImg from "../assets/date-time-app.png";
 import loginImg from "../assets/login-page.png";
+import myCalculaterImg from "../assets/my-calculater.png";
 
 export default function Project() {
   return (
@@ -28,8 +29,15 @@ export default function Project() {
         />
 
         <ProjectCard
-          imgSrc={my-calculaterImg}
-          title="Calculater"
+          imgSrc={loginImg}
+          title="Login-Form"
+          description="Login form built with React and Tailwind."
+          url="https://loginformreacttailwind.vercel.app/"
+        />
+
+        <ProjectCard
+          imgSrc={myCalculaterImg}
+          title="my-calculater"
           description="Full calculater built with React and Tailwind."
           url="https://mycalculatersuren.vercel.app/"
         />
