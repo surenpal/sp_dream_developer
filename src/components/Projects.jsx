@@ -28,11 +28,13 @@ export default function Project() {
         />
 
         <ProjectCard
-          imgSrc={loginImg}
-          title="Login-Form"
-          description="Login form built with React and Tailwind."
-          url="https://loginformreacttailwind.vercel.app/"
+          imgSrc={my-calculaterImg}
+          title="Calculater"
+          description="Full calculater built with React and Tailwind."
+          url="https://mycalculatersuren.vercel.app/"
         />
+        
+
       </div>
     </section>
   );
