@@ -3,7 +3,7 @@ export default function Navbar() {
     <nav className="w-full h-16 bg-gray-50 fixed top-0 left-0 z-50 shadow-lg backdrop-blur-md">
       <div className="max-w-6xl mx-auto h-full px-6 flex justify-between items-center">
         <h1 className="text-2xl font-extrabold text-gray-800">
-          Suren Pal
+          Suren
         </h1>
 
         <div className="space-x-8 text-gray-700 font-medium">
