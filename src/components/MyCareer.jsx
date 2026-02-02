@@ -11,7 +11,7 @@ export default function Mycareer() {
 
   return (
     <section id="career" className="max-w-4xl mx-auto py-20 px-6">
-      <h2 className="text-3xl font-bold mb-10 text-center">My Career</h2>
+      <h2 className="text-3xl font-bold mb-10 text-center text-green-800">My Career</h2>
       <div className="space-y-8">
         {items.map((item, i) => (
           <motion.div
