@@ -12,7 +12,7 @@ export default function About() {
 
       <p className="text-gray-700 leading-relaxed text-lg mb-10">
         I am a React developer who loves building learner-friendly resources.
-        I enjoy simplifying complex topics and creating clean, scalable
+        I enjoy simplifying complex topics and creating clean,<br /> scalable
         projects for teaching and real-world use.
       </p>
 
