@@ -4,7 +4,7 @@ export default function Contact() {
       id="contact"
       className="w-full py-24 px-6 text-center bg-gray-50"
     >
-      <h2 className="text-4xl font-extrabold text-green-800 mb-6">
+      <h2 className="text-4xl font-extrabold text-green-800 mb-6 text-shadow-md">
         Contact
       </h2>
 

@@ -10,7 +10,7 @@ export default function Project() {
       id="projects"
       className="w-full py-24 px-6 text-center bg-gray-50"
     >
-      <h2 className="text-4xl font-extrabold text-green-800 mb-10">
+      <h2 className="text-4xl font-extrabold text-green-800 mb-10 text-shadow-md">
         Projects
       </h2>
 
