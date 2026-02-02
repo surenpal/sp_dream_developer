@@ -6,7 +6,7 @@ export default function About() {
       id="about"
       className="w-full py-24 px-6 text-center bg-gray-50"
     >
-      <h2 className="text-4xl font-extrabold text-green-800 mb-6 text-shadow-md">
+      <h2 className="text-4xl font-extrabold text-green-600 mb-6 text-shadow-md">
         About Me
       </h2>
 
