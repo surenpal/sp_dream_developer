@@ -19,7 +19,7 @@ export default function ProjectCard({ title, description, url, imgSrc }) {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 font-medium hover:underline mt-3 inline-block"
+          className="text-gray-600 font-medium hover:underline mt-3 inline-block text-shadow-md" 
         >
           Visit Project
         </a>
