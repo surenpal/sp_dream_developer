@@ -6,7 +6,7 @@ export default function Navbar() {
           Suren
         </h1>
 
-        <div className="space-x-8 text-gray-700 font-medium">
+        <div className="space-x-8 text-pink-700 font-medium">
           <a href="#about" className="hover:text-blue-600 transition-colors">About</a>
           <a href="#skills" className="hover:text-blue-600 transition-colors">Skills</a>
           <a href="#projects" className="hover:text-blue-600 transition-colors">Projects</a>
